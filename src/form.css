@@ -1,0 +1,42 @@
+/* styles.css */
+.form-container {
+    border: 2px solid #ffffff;
+    /* Black border with 2px width */
+    padding: 20px;
+    /* Equal padding on all sides */
+    border-radius: 5px;
+    /* Rounded corners */
+    width: 300px;
+    /* Fixed width */
+    margin: 20px 0;
+    /* Top and bottom margin */
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container input {
+    width: calc(100% - 16px);
+    /* Adjust width to account for padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
